@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            abc
+        </title>
+        <script src="JsBarcode.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    </head>
+    <body>
+        <div>
+
+            <div>
+                 <input type="file" name="file" id="file" accept=".csv" > <br><br>
+                 <input type="button" id="btnsubmit" value="Submit" onclick="readCSVFile();" >
+            </div>
+        
+            <br><br>
+
+            <table id="tblcsvdata">
+                 <thead>
+                      <tr>
+                          <th>S.No</th>
+                          <th>Code</th>
+                          <th>Image</th>
+                      </tr>
+                 </thead>
+                 <tbody>
+        
+                 </tbody>
+        
+            </table>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
